@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/lix-plasticos/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/lix-plasticos"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 2093, hash: '5e94866d574a68c9bcc9f99a2d5c75a42279e3f591944d80faeb3b095d532d87', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 978, hash: 'f98799efe856b0701f4b1bcf47cf97378d60f5fe55eba71f9dfdf09ccf55c5ac', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 11511, hash: '36f8c94ae57f362e9b9c3bcf64f9498b76f8a9fb0d31379a6e593b43377547ab', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 2107, hash: 'c6963a78d7d0e51c158e113c47b70dd4f01af74057f8075a02981534b1feddf5', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 992, hash: '9098bc3ee2a8ebdc714614a1665ee9acee18141d6cae868ab00e68fbfba38a04', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 11525, hash: '1de1932c2b3420df2c572117031c0de06007a3737cd2537aec05ed027f98e051', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles.css': {size: 1577, hash: 'LAmdCHy55wI', text: () => import('./assets-chunks/styles_css.mjs').then(m => m.default)}
   },
 };

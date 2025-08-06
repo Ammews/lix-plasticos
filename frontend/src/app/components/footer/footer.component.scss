@@ -1,0 +1,32 @@
+@import "../../../styles.scss";
+
+#main-div {
+    display: flex;
+    background-color: $primary-color;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    align-items: center;
+    color: $bg-color;
+    height: 250px;
+
+
+    #right-block {
+        flex-direction: column;
+        justify-content: end;
+        width: 50%;
+
+    }
+    #left-block {
+        flex-direction: column;
+        width: 50%;
+    }
+}
+
+#direitos {
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    background-color: #002F2C;
+    color: $bg-color;
+
+}

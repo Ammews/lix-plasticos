@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/lix-plasticos',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
